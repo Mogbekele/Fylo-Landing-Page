@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul { 
+    list-style: none;
+}
+
+h2, h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.general-container {
+    min-height: 100vh;
+}
+
+.nav-bar {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 8%;
+}
+
+.logo {
+    width: 25%;
+    max-width: 100px;
+}
+
+.nav-links {
+    display: flex;
+    font-size: 15px;
+    color: hsl(243, 87%, 12%);
+    font-weight: normal;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.section-1 {
+    margin: 70px 0;
+    padding: 0 8%;
+}
+
+.illustration-1 {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.headers {
+    text-align: center;
+    font-weight: 700;
+}
+
+.section-1 h2 {
+    color: hsl(243, 87%, 12%);
+    line-height: 35px;
+}
+
+.paragraphs {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-1 p {
+    color: hsl(243, 87%, 12%);
+    margin-top: 20px;
+    line-height: 24px;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid hsl(243, 87%, 12%);
+    border-radius: 5px;
+    margin-top: 30px;
+    color: hsl(240, 75%, 98%);
+}
+
+.button {
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    border: 1px solid hsl(224, 93%, 58%);
+    border-radius: 5px;
+}
+
+.bg-curve {
+    width: 100%;
+    transform: translateY(5px);
+}
+
+.bg-curve.desktop {
+    display: none;
+}
+
+.section-2 {
+    text-align: center;
+    background-color: #f8f8fe;
+    padding: 0 6% 45px 6%;
+}
+    
+.illustration-2 {
+    width: 100%;
+}
+
+.section-2 h3 {
+    margin-top: 75px;
+    color: hsl(243, 87%, 12%);
+}
+
+.section-2 p {
+    text-align: left;
+    color: hsl(238, 22%, 44%);
+    margin-top: 25px;
+    line-height: 24px;
+}
+
+.outer-box{
+    display: inline-block;
+}
+
+.call-to-action {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-link {
+    font-family: 'Raleway', sans-serif;
+    color: hsl(170, 45%, 43%);
+    text-decoration: none;
+}
+
+.cta-arrow {
+    width: 23px;
+    margin-left: 10px;
+}
+
+.line {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: hsl(170, 45%, 43%);
+}
+
+.testimonial-box {
+    background-color: white;
+    width: 315px;
+    max-width: 100%;
+    margin: 45px auto 15px auto;
+    padding: 20px 25px;
+    box-shadow: 0 0 10px hsl(0, 0%, 75%);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.quote-icon {
+    width: 20px;
+}
+
+.testimonial-box p {
+    margin-top: 0;
+    margin-bottom: 7px;
+    padding: 0;
+    font-size: 13px;
+    color: hsl(243, 87%, 12%);
+}
+
+.profile {
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.profile-img {
+    border-radius: 100%;
+    width: 40px;
+    align-self: center;
+}
+
+.profile-info {
+    padding: 10px;
+}
+
+.name {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+
+.section-3 {
+    padding: 60px 8%;
+    background-color: hsl(238, 22%, 44%);
+    text-align: center;
+}
+
+.form {
+    margin: 0 7%;
+}
+
+.section-3 h3 {
+    color: hsl(240, 75%, 98%);
+    margin-bottom: 22px;
+    font-size: 20px;
+}
+
+.section-3 p {
+    color: hsl(0deg 0% 90%);
+    line-height: 24px;
+}
+
+.section-3 input {
+    border: 1px solid hsl(238, 22%, 44%);
+    padding: 11px;
+}
+
+.section-3 button {
+    padding: 11px;
+}
+
+.section-4 {
+    text-align: left;
+    padding: 50px 8%;
+    background-color: hsl(243, 87%, 12%);
+}
+
+.footer-logo {
+    width: 180px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.section-4 p {
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(0deg 0% 90%);
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.grid-1 {
+    margin-top: 25px;
+}
+
+.grid-1 div {
+    margin-top: 15px;
+}
+
+.phone-icon {
+    width: 20px;
+}
+
+.email-icon {
+    width: 20px;
+}
+
+.grid-1 span {
+    color: hsl(0deg 0% 90%);
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
+}
+
+.grid-2 {
+    margin-top: 40px;
+}
+
+.grid-3 {
+    margin-top: 40px;
+}
+
+.grid-4 {
+    margin-top: 40px;
+}
+
+.grid-4 img {
+    width: 25px;
+    margin: 4px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    h3, h2 {
+        font-size: 30px;
+    }
+    
+    .nav-bar {
+        padding: 30px 5%;
+    }
+
+    .headers {
+       text-align: left;
+   }
+
+   .paragraphs {
+       text-align: left;
+   }
+   
+    .section-1 {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin: 70px 0;
+        padding: 0 5%;
+    }
+    
+
+    .illustration-1 {
+        margin: 0 0 0 30px;
+        padding: 35px;
+    }
+
+    .center-align {
+        text-align: left;
+    }
+
+    .button-flex {
+        flex-direction: row;
+    }
+
+    .section-1 input {
+        width: 60%;
+    }
+
+    .section-1 button {
+        width: 35%;
+        margin-left: 5px;
+    }
+
+    .bg-curve.mobile {
+        display: none;
+    }
+
+    .bg-curve.bg-curve.desktop {
+        display: block;
+    }
+
+    .section-2 {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        text-align: left;
+        padding: 40px 5% 85px 5%;
+    }
+
+    .illustration-2 {
+        margin: 0 0 0 30px;
+        padding: 50px;
+    }
+
+    .section-2 h3 {
+        margin: 0;
+    }
+
+    .testimonial-box {
+        margin: 45px 0 0 0;
+    }
+
+    .section-3 {
+        display: flex;
+        text-align: left;
+        align-items: center;
+        padding: 60px 5%;
+        justify-content: space-between;
+    }
+
+    .section-3-flex {
+        width: 40%;
+        
+    }
+    
+    .form {
+        padding: 0 0 0 40px;
+        width: 50%;
+        margin: 0;
+    }
+
+    .section-3 button {
+        width: auto;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+}
