@@ -5,6 +5,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 
 ul { 
@@ -45,6 +46,10 @@ h2, h3 {
 
 .nav-links li:last-child {
     margin-right: 0;
+}
+
+.nav-links a {
+    color: hsl(243, 87%, 12%)
 }
 
 .section-1 {
@@ -100,6 +105,12 @@ h2, h3 {
     margin-top: 15px;
     border: 1px solid hsl(224, 93%, 58%);
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: hsl(199, 88%, 73%);
+    border: 1px solid hsl(199, 88%, 73%);
 }
 
 .bg-curve {
@@ -148,6 +159,12 @@ h2, h3 {
     font-family: 'Raleway', sans-serif;
     color: hsl(170, 45%, 43%);
     text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.cta-link:hover {
+    filter: invert(0.39) sepia(1) saturate(13.2) hue-rotate(111.6deg) brightness(1.2);
 }
 
 .cta-arrow {
@@ -243,7 +260,7 @@ h2, h3 {
     padding: 11px;
 }
 
-.section-4 {
+.footer {
     text-align: left;
     padding: 50px 8%;
     background-color: hsl(243, 87%, 12%);
@@ -258,11 +275,19 @@ h2, h3 {
     grid-template-columns: auto;
 }
 
-.section-4 p {
+.footer p {
     font-family: 'Open Sans', sans-serif;
     color: hsl(0deg 0% 90%);
     font-size: 15px;
     margin-top: 15px;
+}
+
+.footer a {
+    color: hsl(0deg 0% 90%);
+}
+
+.footer a:hover {
+    color: hsl(199, 88%, 73%);
 }
 
 .grid-1 {
@@ -305,6 +330,9 @@ h2, h3 {
     margin: 4px;
 }
 
+.grid-4 img:hover {
+    filter: invert(0.4) sepia(1) saturate(2.6) hue-rotate(169.2deg) brightness(0.96);
+}
 
 @media only screen and (min-width: 768px) {
     h3, h2 {
@@ -312,6 +340,7 @@ h2, h3 {
     }
     
     .nav-bar {
+        margin-top: 20px;
         padding: 30px 5%;
     }
 
